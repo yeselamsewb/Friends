@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>learner</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type="text/css">
+		body{
+		margin:0px;
+		padding:0px; 
+		background-color: #1c2841;
+		}
+		header{
+		background-color: black;
+		color: white;
+		text-align:center;
+		}
+		h3{
+			color: white;
+		}
+		input{
+			border-color: white;
+			background-color: black;
+			color: white;
+			height: 50px;
+			width:300px;
+			border-radius: 10px;
+			justify-content: center;
+		}
+		button{
+			height: 50px;
+			width: 80px;
+			border-radius: 15px;
+			background-color: white;
+			color: black;
+		}
+		p{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<header><h1>Friends true story behind the camera</h1></header>
+	<div class="main">
+	<h3> Enter Your name<b>(in lowercase)</b> </h3><input id="input" placeholder="Enter your name">
+	<br>
+
+	<br><br>
+	<button onclick="submit()">submit</button>
+	</div>
+	<p id="p"></p>
+		<script type="text/javascript">
+	function submit(){ let name = document.getElementById('input').value ;
+	if (name == 'nuhamin') {
+		document.getElementById("p").innerHTML ="<h1>Nuhamin</h1><br><p>we can say Nuhamin is short but taller than  coca cola bottle she may not be smart but she is clever at school stuff. people say that she is beautiful girl,but I am not sure where her beauty lies some times i think that her beauty is her height,as many short boys seem to like her another thing i can not figure out is whou controles her mood.some times it is on,and some times it is off I don't like either because when it is on she is going to be annoying and if it is off she is going to be boring</p> <h3>her school status</h3><br><ul><li>amharic - the best from the classs</li><li>English - good at it to</li><li>math - unbeliveable</li><li>bio - good</li><li>chemi - better than worst</li><li>physics - let her cook</li><li>geo - very good </li><li>history - good</li><li>ECO - amazing job</li><li>citzenship - nice</li><li>ict - not better than yeselamsew</li><li>HPE - I don't know who is the shortest player </li> "
+	;} 
+	else if (name == 'dagim'){
+		document.getElementById("p").innerHTML ="<h1>Dagim</h1><br><p>he some kind of guy who is funny some times anoying ,stupid some times and actualy he is a bad guy too he look like good guy he is not angry but if he is angry brother you better run</p> <h3>his school status</h3><br><ul><li>amharic - not bad not good</li><li>English he do great job on it</li><li>math - not that bad if you see the average</li><li>bio - Bader than yeselamsew</li><li>chemi - the worst</li><li>physics - not bad well</li><li>geo - good </li><li>history - IDK</li><li>ECO - he does not deserve his grade</li><li>citzenship - good</li><li>ict - well done</li><li>HPE - messi from temu</li> "
+	;}
+
+	else if (name == 'beza'){
+		document.getElementById("p").innerHTML ="<h1>Beza</h1><br><p>she is an amazing girl.she is smart,kind,innocent <b>(in front of the camera)</b>,and lives for her dream she does not care about anything else except her dream.I have observed how she ignores things, including boys<b>(i wanted to write name of the guys but I do not think that is good idea)</b>I still laugh when I remeber the way she offended one of the boys I think she have turned him to sigma.and i think the thing that make her attractive is is her amazing personality <b>(except the personality of her that is only known by her Friends)</b>. </p> <h3>I think i don't have to write about her school performance cause she is great on all the school stuff"
+	;}
+
+	else if (name == 'yeselamsew'){
+		document.getElementById("p").innerHTML ="<h1>yeselamsew</h1><br><p>he is somebody who have addicted mind of coding , who have not funny jokes that nobody can understand phone addicted(cause of reason) and every body knows that he is innocent but only his close Friends knows him and he don't wanna talk more about himself</p> <h3>his school status</h3><br><ul><li>amharic - good</li><li>English - he passes</li><li>math - bad </li><li>bio - not worstif you see the average</li><li>chemi - the worst</li><li>physics - not bad well</li><li>geo - bad</li><li>history - IDK</li><li>ECO - the best</li><li>citzenship - very nice</li><li>ict - he is the king</li><li>HPE - harry maguair</li> "
+	;}
+	else{
+	document.getElementById("p").innerHTML ="please enter your name in only lower case no father name and no space if you don't get info after doing all this things then it means we don't know who the hell are you so get out of here";
+	}
+	}
+</script>
+</body>
+</html>
